@@ -71,7 +71,7 @@ void sort_cities(void)
     for (i = 0; i < NUM_CITIES; i++)
     {
         max = temps[i].temp;
-        // check for smallest 10 times
+        // check for largest 10 times
         for (j = i + 1; j < NUM_CITIES; j++)
         {
             if (temps[j].temp > max)
